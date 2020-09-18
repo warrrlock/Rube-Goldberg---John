@@ -14,7 +14,7 @@ public class StartButton : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space)) {
-           // gameObject.GetComponent<Rigidbody2D>().gravityScale = 1.4f;
+           gameObject.GetComponent<Rigidbody2D>().gravityScale = 1.4f;
             Debug.Log("space");
         }
     }
